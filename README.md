@@ -8,7 +8,7 @@ Graphic charter of the [junior.guru](https://junior.guru/) project, available on
 
 ## Technical info
 
-The repository builds as [GitHub Pages](https://pages.github.com/). The source is set to the `docs` directory so that meta files don't mix with the actual Visualbook files. The directory must be called `docs` as that's the only name GitHub supports as of now. For the domain name to work, the CNAME file must exist and the CNAME record for `logo.junior.guru` must be set to `honzajavorek.github.io`. Currently, this is [configured in Vercel](https://vercel.com/dashboard/domains/junior.guru) as the junior.guru domain's DNS is managed there.
+The repository builds as [GitHub Pages](https://pages.github.com/). The source is set to the `docs` directory so that meta files don't mix with the actual Visualbook files. The directory must be called `docs` as that's the only name GitHub supports as of now. For the domain name to work, the CNAME file must exist and the CNAME record for logo.junior.guru must be set to honzajavorek.github.io. Currently, this is [configured in Vercel](https://vercel.com/dashboard/domains/junior.guru) as the junior.guru domain's DNS is managed there.
 
 ## License
 
