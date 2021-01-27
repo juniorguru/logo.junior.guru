@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div><button class="btn btn-sm text-dark" type="button" lang="en" onclick="localStorage.setItem(&#39;lang&#39;,document.documentElement.lang=&#39;cz&#39;)"><img src="/assets/img/tech/czech-republic.svg?h=53dfa91868917073c128427e36929648" style="height: 18px;margin-right: 8px;">Česky</button><button class="btn btn-sm text-dark" type="button" lang="cz" onclick="localStorage.setItem(&#39;lang&#39;,document.documentElement.lang=&#39;en&#39;)"><img src="/assets/img/tech/united-states.svg?h=d93f1175c5c4804ea9d6b6879ed5d136" style="height: 18px;margin-right: 8px;">English</button></div>
+                    <div><button class="btn btn-sm text-dark" type="button" lang="en" onclick="localStorage.setItem('lang',document.documentElement.lang='cz')"><img src="/assets/img/tech/czech-republic.svg?h=53dfa91868917073c128427e36929648" style="height: 18px;margin-right: 8px;">Česky</button><button class="btn btn-sm text-dark" type="button" lang="cz" onclick="localStorage.setItem('lang',document.documentElement.lang='en')"><img src="/assets/img/tech/united-states.svg?h=d93f1175c5c4804ea9d6b6879ed5d136" style="height: 18px;margin-right: 8px;">English</button></div>
                 </div>
             </div>
         </div>
@@ -49,10 +49,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 d-flex">
-                    <h1 class="header-text-color pb-3" lang="cz">Názvy značky</h1>
+                    <h1 class="header-text-color pb-3" lang="cz">Loga značky<span class="visualbook-brand-name"></span></h1>
                 </div>
                 <div class="col-md-12 d-flex">
-                    <h1 class="header-text-color pb-3" lang="en">Naming</h1>
+                    <h1 class="header-text-color pb-3" lang="en"><span class="visualbook-brand-name"></span>&nbsp;logos</h1>
                 </div>
             </div>
         </div>
@@ -62,69 +62,13 @@
             <div class="row" style="padding: 0;">
                 <div class="col" style="padding: 0;">
                     <ol class="breadcrumb breadcrumb-bg-color mb-0" lang="cz">
-                        <li class="breadcrumb-item"><a href="../index.html"><span>Úvod</span></a></li>
-                        <li class="breadcrumb-item active"><span>Názvy značky</span></li>
+                        <li class="breadcrumb-item"><a href="/index.html"><span>Úvod</span></a></li>
+                        <li class="breadcrumb-item active"><span>Loga</span></li>
                     </ol>
                     <ol class="breadcrumb breadcrumb-bg-color mb-0" lang="en">
-                        <li class="breadcrumb-item"><a href="../index.html"><span>Home</span></a></li>
-                        <li class="breadcrumb-item active"><span>Naming</span></li>
+                        <li class="breadcrumb-item"><a href="/index.html"><span>Home</span></a></li>
+                        <li class="breadcrumb-item active"><span>Logos</span></li>
                     </ol>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4" style="padding-right: 30px;">
-                    <h3 lang="cz">Název značky<br></h3>
-                    <h3 lang="en">Brand name<br></h3>
-                </div>
-                <div class="col-md-8">
-                    <div class="shadow-sm card-main bg-white rounded">
-                        <div class="table-responsive table-borderless" style="margin-bottom: 10px;" lang="cz">
-                            <table class="table table-bordered">
-                                <thead class="text-secondary bg-light">
-                                    <tr>
-                                        <th>Oficiální název</th>
-                                        <th>Marketingový zápis</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Junior Guru</td>
-                                        <td>junior.guru</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="table-responsive table-borderless" style="margin-bottom: 10px;" lang="en">
-                            <table class="table table-bordered">
-                                <thead class="text-secondary bg-light">
-                                    <tr>
-                                        <th>Official Name</th>
-                                        <th>Promotion name</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Junior Guru</td>
-                                        <td>junior.guru</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div style="margin-bottom: 20px;"><i class="fas fa-check-circle text-success-color h5 mb-2" style="margin-left: -7px;"></i>
-                            <div class="allowed-rules">
-                                <p class="text-truncate text-left text-success-color m-0"><strong>Junior Guru</strong><br><strong>junior.guru</strong><br></p>
-                            </div>
-                        </div>
-                        <div><i class="fas fa-times-circle h5 text-danger-color mb-2" style="margin-left: -7px;"></i>
-                            <div class="forbidden-rules">
-                                <p class="text-truncate text-left text-danger-color m-0"><strong>Junior guru</strong><br><strong>JuniorGuru</strong><br><strong>Juniorguru</strong><br><strong>Junior.guru</strong><br><strong>Junior.Guru</strong><br></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -133,22 +77,46 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4" style="padding-right: 30px;">
-                    <h3 lang="cz">Webová adresa<br></h3>
-                    <h3 lang="en">Web<br></h3>
+                    <h3 lang="cz">Hlavní logo</h3>
+                    <h3 lang="en">Main logo</h3>
                 </div>
                 <div class="col-md-8">
-                    <div class="shadow-sm card-main bg-white rounded">
-                        <div style="margin-bottom: 20px;"><i class="fas fa-check-circle text-success-color h5 mb-2" style="margin-left: -7px;"></i>
-                            <div class="allowed-rules">
-                                <p class="text-truncate text-left text-success-color m-0"><strong>junior.guru</strong><br></p>
+                    <div class="text-left shadow-sm card-main bg-white rounded"><a href="/loga/logo.html">
+                            <div class="ratio-16-9">
+                                <div class="logo-image d-flex justify-content-center align-items-center"><img src="/assets/img/logos/junior-guru-logo-na-svetle-pozadi-%7Blight-background%7D-rgb.svg?h=cfb687047ed273d37d7fc0c5bcfe007b" style="height: 36%;"></div>
                             </div>
-                        </div>
-                        <div><i class="fas fa-times-circle h5 text-danger-color mb-2" style="margin-left: -7px;"></i>
-                            <div class="forbidden-rules">
-                                <p class="text-truncate text-left text-danger-color m-0"><strong>www.junior.guru</strong></p>
+                        </a><a class="btn btn-outline-primary btn-block" role="button" href="/loga/logo.html" style="padding: 13px;" lang="cz">Použít tuto verzi loga<i class="fas fa-arrow-right" style="font-size: 13px;padding-left: 10px;"></i></a><a class="btn btn-outline-primary btn-block" role="button" href="/loga/logo.html" style="padding: 13px;margin: 0px;" lang="en">Use this logo version<i class="fas fa-arrow-right" style="font-size: 13px;padding-left: 10px;"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding-right: 30px;">
+                    <h3 lang="cz">Maskot</h3>
+                    <h3 lang="en">Mascot</h3>
+                </div>
+                <div class="col-md-8">
+                    <div class="text-left shadow-sm card-main bg-white rounded"><a href="/loga/mascot.html">
+                            <div class="ratio-16-9">
+                                <div class="logo-image d-flex justify-content-center align-items-center"><img src="/assets/img/logos/junior-guru-maskot-logo-na-svetle-pozadi-%7Blight-background%7D-rgb.svg?h=0afb2bd21d0fc8ce85f5cf46bd0bbde0" style="height: 66%;"></div>
                             </div>
-                        </div>
-                    </div>
+                        </a><a class="btn btn-outline-primary btn-block" role="button" href="/loga/mascot.html" style="padding: 13px;" lang="cz">Použít tuto verzi loga<i class="fas fa-arrow-right" style="font-size: 13px;padding-left: 10px;"></i></a><a class="btn btn-outline-primary btn-block" role="button" href="/loga/mascot.html" style="padding: 13px;margin: 0px;" lang="en">Use this logo version<i class="fas fa-arrow-right" style="font-size: 13px;padding-left: 10px;"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding-right: 30px;">
+                    <h3>Logo pack</h3>
+                    <p lang="cz">Stáhněte si všechny verze a formáty loga pro obrazovky i tisk.</p>
+                    <p lang="en">Download all versions and formats of the logo for screen and print.</p><a class="btn btn-primary btn-block" role="button" href="Junior-Guru-logopack.zip" lang="cz"><i class="fas fa-file-download" style="padding-right: 10px;"></i>Stáhnout Logopack (.ZIP)</a><a class="btn btn-primary btn-block" role="button" href="Junior-Guru-logopack.zip" lang="en"><i class="fas fa-file-download" style="padding-right: 10px;"></i>Download Logopack (.ZIP)</a>
+                    <div class="alert alert-warning mt-3" role="alert" lang="cz"><span>Návod:<br><a class="alert-link" href="/logo-formats.html" target="_blank">Průvodce výběrem formátu loga&nbsp;</a>&nbsp;</span></div>
+                    <div class="alert alert-warning mt-3" role="alert" lang="en"><span>Instructions:<br><a class="alert-link" href="/logo-formats.html" target="_blank"><strong><span style="text-decoration: underline;">Logo format selection guide</span></strong></a>&nbsp;</span></div>
+                    <div class="alert alert-info shadow-sm mt-3" role="alert" lang="cz"><i class="fa fa-close close" style="color: #00587f;font-size: 20px;margin-right: -6px;" type="button" data-dismiss="alert"></i><span>Tip pro designery:<br><a class="alert-link" href="https://gumroad.com/a/903148659" target="_blank">Vytvářejte Logopacky rychleji pomocí nástroje The Logo Package Express&nbsp;<i class="fa fa-external-link"></i></a>&nbsp;</span></div>
                 </div>
             </div>
         </div>
@@ -161,7 +129,7 @@
                     <p class="text-small" lang="cz">Vyrobeno na platformě&nbsp;<a href="https://visualbook.pro"><span style="text-decoration: underline;">visualbook.pro</span></a><br></p>
                     <p class="text-small" lang="en">Created by&nbsp;<a href="https://visualbook.pro"><span style="text-decoration: underline;">visualbook.pro</span></a></p>
                 </div>
-                <div class="float-md-right"><a href="https://www.visualbook.pro" target="_blank"><img src="/assets/img/logos/visualbook-logo-na-delku-na-svetle-pozadi.svg?h=60844bc42f8de4913feb4416570090ba" style="height: 30px;opacity: 1;padding-top: 10px;"></a></div>
+                <div class="float-md-right"><a href="https://www.visualbook.pro" target="_blank"><img src="/assets/img/logos/junior-guru-logo-na-svetle-pozadi-%7Blight-background%7D-rgb.svg?h=cfb687047ed273d37d7fc0c5bcfe007b" style="height: 30px;opacity: 1;padding-top: 10px;"></a></div>
             </main>
         </div>
     </footer>
